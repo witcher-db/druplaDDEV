@@ -1,0 +1,6 @@
+.editorconfig
+.gitattributes
+.ddev/
+/vendor/
+/web/
+.idea
