@@ -1,6 +1,4 @@
-.editorconfig
-.gitattributes
-.ddev/
-/vendor/
-/web/
-.idea
+/web
+/vendor
+/.ddev/!config.yml
+/config
