@@ -1,6 +1,57 @@
-.editorconfig
-.gitattributes
-.ddev/
 /vendor/
-/web/
-.idea
+/web/core/
+/web/modules/contrib/
+/web/profiles/contrib/
+/web/themes/contrib/
+/web/libraries/
+
+# === DDEV config (optional to ignore) ===
+/.ddev/*.import-db
+/.ddev/.downloads
+/.ddev/docker-compose.*.yaml
+/.ddev/.webimageBuild
+/.ddev/db_snapshots/
+
+# === Drupal temporary and state files ===
+/web/sites/*/files/js
+/web/sites/*/files/css
+/web/sites/*/files/php
+/web/sites/*/files/styles
+/web/sites/*/files/tmp
+/web/sites/*/private
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+
+.idea/
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+# Project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using Sublime Text
+# *.sublime-project
+
+# SFTP configuration file
+sftp-config.json
+sftp-config-alt*.json
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
