@@ -1,8 +1,0 @@
-uuid: 46c163ad-9e13-451d-ac1d-94c329f248bd
-langcode: en
-status: true
-dependencies: {  }
-id: search_button_header
-label: 'Search button header'
-revision: false
-description: null
