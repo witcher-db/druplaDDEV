@@ -1,4 +1,4 @@
-uuid: 403077af-3055-4157-b592-e5adc5e55526
+uuid: 734e76b4-3c92-4790-8a0f-696e9f6e0be5
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,9 @@ dependencies:
     - system
   theme:
     - olivero
-_core:
-  default_config_hash: '-OAAZDw1OR_UyAEPEKX0Hu4LaZD149vW9PmMnIC-v0o'
-id: olivero_site_branding
+id: olivero_sitebranding
 theme: olivero
-region: header
+region: primary_menu
 weight: 0
 provider: null
 plugin: system_branding_block
