@@ -1,0 +1,21 @@
+uuid: e82c83a1-07ca-465f-ace3-5892c414edb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.copyright
+    - field.field.config_pages.copyright.field_text_field
+id: config_pages.copyright.default
+targetEntityType: config_pages
+bundle: copyright
+mode: default
+content:
+  field_text_field:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
