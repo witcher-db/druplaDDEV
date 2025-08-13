@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.taxonomy_term.info.field_info_icon
+    - field.field.taxonomy_term.info.field_subtitle
+    - field.field.taxonomy_term.info.field_taxonomy_title
     - image.style.thumbnail
     - taxonomy.vocabulary.info
   module:
@@ -30,6 +32,22 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_subtitle:
+    type: string_textfield
+    weight: 103
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_taxonomy_title:
+    type: string_textfield
+    weight: 104
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   name:
     type: string_textfield
