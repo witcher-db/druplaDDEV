@@ -24,6 +24,7 @@
         "drupal/core-recommended": "^11.2",
         "drupal/token": "^1.15",
         "drupal/token_filter": "^2.2",
+        "drupal/twig_tweak": "^3.4",
         "drush/drush": "^13.6"
     },
     "conflict": {
