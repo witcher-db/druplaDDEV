@@ -4,14 +4,16 @@ status: true
 dependencies:
   config:
     - config_pages.type.copyright
-    - field.field.config_pages.copyright.field_text_field
+    - field.field.config_pages.copyright.field_formatted_text
+  module:
+    - text
 id: config_pages.copyright.default
 targetEntityType: config_pages
 bundle: copyright
 mode: default
 content:
-  field_text_field:
-    type: string_textfield
+  field_formatted_text:
+    type: text_textfield
     weight: 0
     region: content
     settings:

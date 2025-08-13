@@ -17,10 +17,13 @@
     "require": {
         "composer/installers": "^2.3",
         "drupal/admin_toolbar": "^3.6",
+        "drupal/config_pages": "^2.18",
         "drupal/core-composer-scaffold": "^11.2",
         "drupal/core-project-message": "^11.2",
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
+        "drupal/token": "^1.15",
+        "drupal/token_filter": "^2.2",
         "drush/drush": "^13.6"
     },
     "conflict": {

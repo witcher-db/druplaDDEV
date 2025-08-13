@@ -11,6 +11,7 @@ module:
   ckeditor5: 0
   comment: 0
   config: 0
+  config_pages: 0
   contact: 0
   contextual: 0
   datetime: 0
@@ -42,6 +43,8 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
+  token_filter: 0
   toolbar: 0
   user: 0
   views_ui: 0
