@@ -4,31 +4,27 @@ status: true
 dependencies:
   config:
     - block_content.type.partners_logos
-    - field.field.block_content.partners_logos.field_our_customers
-    - field.field.block_content.partners_logos.field_partners_logos_images
-  module:
-    - image
+    - field.field.block_content.partners_logos.field_logo_media_image
+    - field.field.block_content.partners_logos.field_short_text
 id: block_content.partners_logos.default
 targetEntityType: block_content
 bundle: partners_logos
 mode: default
 content:
-  field_our_customers:
+  field_logo_media_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_short_text:
     type: string
     label: hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_partners_logos_images:
-    type: image
-    label: hidden
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content

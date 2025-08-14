@@ -1,20 +1,19 @@
-uuid: 2d6d7bfa-c84e-4f63-959f-1ab2c5ac901c
+uuid: 2a791938-d606-4b8f-aa0f-5aa2e2cf0de5
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
-id: block_content.field_our_customers
-field_name: field_our_customers
+    - media
+id: block_content.field_logo_media_image
+field_name: field_logo_media_image
 entity_type: block_content
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
+  target_type: media
 module: core
 locked: false
-cardinality: 1
+cardinality: 5
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
