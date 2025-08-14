@@ -1,0 +1,19 @@
+uuid: e633fd9d-06d0-4ea7-8c5f-4efc51b51b05
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.partners_logos
+    - field.storage.block_content.field_our_customers
+id: block_content.partners_logos.field_our_customers
+field_name: field_our_customers
+entity_type: block_content
+bundle: partners_logos
+label: 'Our Customers logos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

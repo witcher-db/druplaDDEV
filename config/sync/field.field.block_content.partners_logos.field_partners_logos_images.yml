@@ -1,0 +1,38 @@
+uuid: 53ade489-6400-46cf-a657-3188cea25352
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.partners_logos
+    - field.storage.block_content.field_partners_logos_images
+  module:
+    - image
+id: block_content.partners_logos.field_partners_logos_images
+field_name: field_partners_logos_images
+entity_type: block_content
+bundle: partners_logos
+label: 'Partners logos images'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: '50 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image
