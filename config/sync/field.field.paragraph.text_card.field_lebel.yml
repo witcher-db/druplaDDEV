@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_partners_lebel
+    - field.storage.paragraph.field_lebel
     - paragraphs.paragraphs_type.text_card
-id: paragraph.text_card.field_partners_lebel
-field_name: field_partners_lebel
+id: paragraph.text_card.field_lebel
+field_name: field_lebel
 entity_type: paragraph
 bundle: text_card
 label: 'Paragraph label'

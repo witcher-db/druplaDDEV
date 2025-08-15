@@ -1,14 +1,14 @@
-uuid: 7d64a598-8460-41b3-906e-f0fb86dd6d85
+uuid: 1a772c70-4315-4d25-97f8-fd354c920ba8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.text_card.field_lebel
-    - field.field.paragraph.text_card.field_text_paragraph
-    - paragraphs.paragraphs_type.text_card
-id: paragraph.text_card.default
+    - field.field.paragraph.item.field_lebel
+    - field.field.paragraph.item.field_subtitle
+    - paragraphs.paragraphs_type.item
+id: paragraph.item.default
 targetEntityType: paragraph
-bundle: text_card
+bundle: item
 mode: default
 content:
   field_lebel:
@@ -19,7 +19,7 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_text_paragraph:
+  field_subtitle:
     type: string
     label: hidden
     settings:

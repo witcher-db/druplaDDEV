@@ -1,11 +1,11 @@
-uuid: 914d97f1-f6a4-41ec-9004-517b76deddbe
+uuid: c0540b22-b6d0-4a1d-9548-f631e397e777
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_partners_lebel
-field_name: field_partners_lebel
+id: paragraph.field_subtitle
+field_name: field_subtitle
 entity_type: paragraph
 type: string
 settings:
