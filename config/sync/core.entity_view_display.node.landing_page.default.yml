@@ -7,6 +7,7 @@ dependencies:
     - node.type.landing_page
   module:
     - layout_builder
+    - layout_builder_restrictions
     - user
 third_party_settings:
   layout_builder:
@@ -19,6 +20,35 @@ third_party_settings:
           label: ''
         components: {  }
         third_party_settings: {  }
+  layout_builder_restrictions:
+    allowed_block_categories:
+      - Announcements
+      - 'Config Pages'
+      - 'Content fields'
+      - 'Custom block types'
+      - 'Custom blocks'
+      - Forms
+      - Help
+      - 'Inline blocks'
+      - 'Lists (Views)'
+      - Menus
+      - System
+      - User
+      - core
+    entity_view_mode_restriction:
+      allowed_layouts: {  }
+      denylisted_blocks: {  }
+      allowlisted_blocks: {  }
+      restricted_categories:
+        - Announcements
+        - 'Content fields'
+        - Forms
+        - Help
+        - 'Inline blocks'
+        - Menus
+        - User
+    entity_view_mode_restriction_by_region:
+      allowed_layouts: {  }
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
