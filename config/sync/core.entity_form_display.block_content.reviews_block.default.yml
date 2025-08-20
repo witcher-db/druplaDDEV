@@ -4,53 +4,19 @@ status: true
 dependencies:
   config:
     - block_content.type.reviews_block
-    - field.field.block_content.reviews_block.field_media_image
-    - field.field.block_content.reviews_block.field_quantity_of_stars
-    - field.field.block_content.reviews_block.field_short_text
-    - field.field.block_content.reviews_block.field_subtitle
-    - field.field.block_content.reviews_block.field_title
+    - field.field.block_content.reviews_block.field_person_reference
 id: block_content.reviews_block.default
 targetEntityType: block_content
 bundle: reviews_block
 mode: default
 content:
-  field_media_image:
+  field_person_reference:
     type: entity_reference_autocomplete
-    weight: 0
+    weight: 26
     region: content
     settings:
       match_operator: CONTAINS
       match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_quantity_of_stars:
-    type: options_select
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_short_text:
-    type: string_textfield
-    weight: 3
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_subtitle:
-    type: string_textfield
-    weight: 2
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_title:
-    type: string_textfield
-    weight: 1
-    region: content
-    settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }

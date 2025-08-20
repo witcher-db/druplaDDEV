@@ -27,6 +27,7 @@ third_party_settings:
       - 'Content fields'
       - 'Custom block types'
       - 'Custom blocks'
+      - Devel
       - Forms
       - Help
       - 'Inline blocks'
@@ -42,9 +43,9 @@ third_party_settings:
       restricted_categories:
         - Announcements
         - 'Content fields'
+        - Devel
         - Forms
         - Help
-        - 'Inline blocks'
         - Menus
         - User
     entity_view_mode_restriction_by_region:
