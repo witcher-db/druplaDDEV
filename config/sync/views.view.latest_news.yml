@@ -617,8 +617,10 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+      arguments: {  }
       defaults:
         fields: false
+        arguments: false
       display_description: ''
       display_extenders: {  }
     cache_metadata:
@@ -626,7 +628,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
         - 'user.node_grants:view'
         - user.permissions
       tags:
