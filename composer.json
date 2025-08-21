@@ -29,6 +29,7 @@
         "drupal/token": "^1.15",
         "drupal/token_filter": "^2.2",
         "drupal/twig_tweak": "^3.4",
+        "drupal/viewsreference": "^2.0@beta",
         "drush/drush": "^13.6"
     },
     "conflict": {
