@@ -5,9 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.block_persons
     - field.field.node.person.field_profile_photo
+    - field.field.node.person.field_quantity_of_stars
+    - field.field.node.person.field_short_text
     - field.field.node.person.field_social_links
     - field.field.node.person.field_social_links_icons
     - field.field.node.person.field_subtitle
+    - field.field.node.person.field_team_member
     - field.field.node.person.field_title
     - node.type.person
   module:
@@ -70,4 +73,7 @@ content:
     weight: 0
     region: content
 hidden:
+  field_quantity_of_stars: true
+  field_short_text: true
+  field_team_member: true
   links: true
