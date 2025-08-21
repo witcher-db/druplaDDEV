@@ -1,14 +1,16 @@
-uuid: ce2dae3c-ae18-4072-91e2-fedbbe714169
+uuid: c5c1b72a-e4da-4d99-88b7-a6d71a9f5aea
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_creation_date
-field_name: field_creation_date
+    - user
+id: node.field_author
+field_name: field_author
 entity_type: node
-type: timestamp
-settings: {  }
+type: entity_reference
+settings:
+  target_type: user
 module: core
 locked: false
 cardinality: 1
